@@ -1,27 +1,15 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta name="author" content="Co-Authored by M. Sveen, J. Liu, S. Savoia &amp; B. Szulc">
+
 	<title>Usability &amp; Accessibility Study of Four Zoo Websites</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="js/jquery.onepage-scroll.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Pacifico' rel='stylesheet' type='text/css'>
   <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='css/styles.css' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
-	<script>
-	  $(document).ready(function(){
-      $(".main").onepage_scroll({
-        sectionContainer: "section",
-        responsiveFallback: 600,
-        loop: true
-      });
-		});
-		
-	</script>
 </head>
 <body>
   <div class="wrapper">
@@ -30,7 +18,9 @@
       <section class="page1">
         <div class="page_container">
           <h1>Heading for page 1</h1>
+
           <h2>Sub-heading for page 1</h2>
+
           <p>Content for page 1</p>
   	    </div>
       </section>
@@ -38,7 +28,9 @@
 	    <section class="page2">
 	      <div class="page_container">
           <h1>Heading for page 2</h1>
+
           <h2>Sub-heading for page 2</h2>
+
           <p>Content for page 2</p>
 	      </div>
       </section>
@@ -46,7 +38,9 @@
 	    <section class="page3">
 	      <div class="page_container">
           <h1>Heading for page 3</h1>
+
           <h2>Sub-heading for page 3</h2>
+
           <p>Content for page 3</p>
   	    </div>
       </section>
@@ -54,11 +48,27 @@
       <section class="page4">
         <div class="page_container">
           <h1>Heading for page 4</h1>
+
           <h2>Sub-heading for page 4</h2>
+
           <p>Content for page 4</p>
         </div>
       </section>
+
     </div>
   </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/jquery.onepage-scroll.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        keyboard: true,
+        loop: true
+      });
+    });
+  </script>
 </body>
 </html>
