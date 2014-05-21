@@ -1,0 +1,96 @@
+.page4 {
+	background:#8cc63f;
+}
+
+.page4 .page_container {
+	background:#8cc63f;
+	color:white;
+}
+
+.page4 h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding:10px 0 15px 0;
+}
+
+.features h2 {
+	background: #4d4d4d;
+}
+
+.features .feature {
+	color:#4d4d4d;	
+}
+
+.feature {
+	text-align: center;
+	display:inline-block;
+	width:13%;
+	margin:3% 2%;
+	overflow:hidden;
+	vertical-align: top;
+}
+
+.feature img {
+	display:block;
+	height:75px;
+	margin:0 auto;
+	margin-bottom: 15px;
+}
+
+
+.feature_rating img {
+	width: 46px;
+	height:auto;
+	display:inline-block;
+	background:#b2b2b2;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+	padding:9px 5px;
+	margin:15px 0 0 0;
+}
+
+.small_rating {
+	width: 34px !important;
+	-webkit-border-radius: 20px !important;
+	-moz-border-radius: 20px !important;
+	border-radius: 20px !important;
+	padding:7px 3px !important;
+}
+
+.features {
+background-color:#f2f2f2;
+text-align:center;
+}
+
+/* For the zig-zag border */
+.features:after {
+	content: " ";
+    display:block;
+    position: relative;
+	top:0px;
+	left:0px;
+    width:100%;
+    height:35px;
+    background: linear-gradient(#f2f2f2 0%, transparent 0%), linear-gradient(135deg, #8cc63f 33.33%, transparent 33.33%) 0 0%, #8cc63f linear-gradient(45deg, #8cc63f 33.33%, #f2f2f2 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#f2f2f2 0%, transparent 0%), -webkit-linear-gradient(135deg, #8cc63f 33.33%, transparent 33.33%) 0 0%, #8cc63f -webkit-linear-gradient(45deg, #8cc63f 33.33%, #f2f2f2 33.33%) 0 0%;
+    background: -o-linear-gradient(#f2f2f2 0%, transparent 0%), -o-linear-gradient(135deg, #8cc63f 33.33%, transparent 33.33%) 0 0%, #8cc63f -o-linear-gradient(45deg, #8cc63f 33.33%, #f2f2f2 33.33%) 0 0%;
+    background: -moz-linear-gradient(#f2f2f2 0%, transparent 0%), -moz-linear-gradient(135deg, #8cc63f 33.33%, transparent 33.33%) 0 0%, #8cc63f -moz-linear-gradient(45deg, #8cc63f 33.33%, #f2f2f2 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 27px 27px, 27px 27px;
+}
+
+
+.page5 .page_container {
+	background:#e8f4d9;
+	color:white;
+}
+
+.page5 h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding:10px 0 15px 0;
+	background: #8cc63f; 
+}
