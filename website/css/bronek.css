@@ -1,0 +1,157 @@
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after { clear: both; }
+
+/*--- Page 1 ---*/
+
+.page1, .page2 {
+	background-color: #f2f2f2;
+}
+
+.page1 #titles1 {
+	margin-top: 4%;
+}
+
+.page1 h1 {
+	color: #FF3039;
+	font-size: 3em;
+}
+
+.page1 h2 { 
+	margin: 1% 0;
+	font-size: 2.3em; 
+	letter-spacing: .05em;
+	color: #4d4d4d;
+}
+
+.page1 h3 { 
+	font-size: 1.5em; 
+	color: #4d4d4d;
+}
+
+.page1 #spike1 {
+	height: 87px;
+	background: url('../img/spike.png') repeat;
+}
+
+.page1 #icons1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #FF3039;
+}
+
+.page1 img {
+	min-width: 92px;
+	min-height: 92px;
+	max-width: 239px;
+	max-height: 239px;
+	width: 15%;
+	height: 15%;
+	margin-top: 5%;
+	margin-bottom: 7.5%;
+}
+
+.page1 img + img { margin-left: 5%; }
+
+
+/*--- Page 2 ---*/
+
+.page2 #title2 {
+	padding: 1% 0;
+	background-color: #FF3039;
+}
+
+.page2 #title2 h2 {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.page2 #per2 {
+	max-width: 1420px;
+	width: auto;
+	margin: 3% auto;
+}
+
+#per2 img {
+	min-width: 100px;
+	min-height: 100px;
+	width: 15%;
+	height: 15%;
+}
+
+#per2 figure {
+	width: 280px;
+	float: left;
+}
+
+#per2 figcaption {
+	margin-top: 5%;
+}
+
+#per2 figcaption p:first-child {
+	font-size: 2.5em;
+}
+
+#per2 figcaption p:last-child {
+	margin-top: 5%;
+	font-size: 1.5em;
+}
+
+#blue2 {  color: #56BCC6; }
+#green2 { color: #8CC63F; }
+#red2 { color: #E84248; }
+#purple2 { color: #B786E5; }
+#yellow2 { color: #f39c12; }
+
+#pop2 {
+	background-color: #96CCCA;
+	padding: 1% 0;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+#icons2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #4DBCC6;
+}
+
+#pos2 {
+	max-width: 1000px;
+	width: auto;
+	margin: 3% auto;
+}
+
+#icons2 figure {
+	float: left;
+	margin-bottom: 1.5%;
+}
+
+#icons2 figure + figure {
+	margin-left: 12%;
+}
+
+#icons2 img {
+	max-width: 175px;
+	width: auto;
+	height: auto;
+}
+
+#icons2 .shorten2 {
+	max-height: 131px;
+	width: auto;
+	height: auto;
+}
+
+#icons2 figcaption {
+	margin-bottom: 20%;
+	color: #fff;
+	font-size: 1.2em;
+}
