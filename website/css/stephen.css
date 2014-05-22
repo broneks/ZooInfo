@@ -85,7 +85,7 @@ text-align:center;
 }
 
 .page5 {
-	background:#fdda45;
+	background:#e8f4d9;
 }
 
 .page5 .page_container {
@@ -146,6 +146,9 @@ text-align:center;
 	margin: 0 0 5px 10px;
 }
 
+/* NOT SURE IF THIS SHOULD BE HERE OR NOT
+if it is, .page5 background should be changed to #fdda45
+
 .page5 .page_container:after {
 	content: " ";
     display:block;
@@ -161,7 +164,7 @@ text-align:center;
     background-repeat: repeat-x;
     background-size: 0px 100%, 27px 27px, 27px 27px;
 }
-
+*/
 
 .page6 .page_container {
 	background:#f2f2f2;
