@@ -43,13 +43,13 @@
 }
 
 .feature_rating img {
-	width: 50px;
+	width: 56px;
 	height:auto;
 	display:inline-block;
 	background:#b2b2b2;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
+	-webkit-border-radius: 33px;
+	-moz-border-radius: 33px;
+	border-radius: 33px;
 	padding:9px 5px;
 	margin:15px 5px 0 5px;
 }
@@ -121,7 +121,7 @@ text-align:center;
 }
 
 .page5 td {
-	font-size: 0.8em;
+	font-size: 0.75em;
 	width:22%;
 	border-top:1px #adafa9 solid;
 	border-bottom:1px #adafa9 solid;
@@ -197,8 +197,8 @@ text-align:center;
 }
 
 .overall_results div {
-	height:75px;
-	margin-top:75px;
+	height:65px;
+	margin-top:60px;
 }
 
 .london_results {
@@ -225,5 +225,5 @@ text-align:center;
 	float:right;
 	height:90px;
 	width:auto;
-	margin:-30px 10px 0 0;
+	margin:-35px 10px 0 0;
 }
